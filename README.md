@@ -15,7 +15,7 @@ This project builds a binary classification pipeline using the Telco Customer Ch
 - Logistic Regression with class weighting
 - Train / validation / test splitting
 - Decision-threshold selection using validation F1-score
-- Evaluation on a held-out test set
+- Evaluation on a held out test set
 - Model serialization with Joblib
 - Model and metrics download from Amazon S3
 - Batch predictions for new customer records
@@ -37,7 +37,7 @@ This project builds a binary classification pipeline using the Telco Customer Ch
 │   ├── inspect_data.py             # Inspect the source dataset
 │   ├── predict.py                 # Batch churn prediction using S3 artifacts
 │   ├── run_sagemaker.py            # Prepare and inspect a SageMaker request
-│   ├── sagemaker_train.py          # SageMaker-compatible training entry point
+│   ├── sagemaker_train.py          # SageMaker compatible training entry point
 │   └── train.py                    # Local training and evaluation
 ├── .env.example                    # Environment-variable template
 ├── .gitignore
