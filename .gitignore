@@ -1,0 +1,42 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.aws/
+*credentials*
+*.pem
+*.key
+
+# Local datasets
+data/raw/*
+data/processed/*
+
+# Trained model artifacts
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Reports and temporary outputs
+reports/churn_predictions.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
