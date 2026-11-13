@@ -132,7 +132,7 @@ The prediction scripts read AWS settings from environment variables. Copy `.env.
 ```powershell
 $env:S3_BUCKET = "your-s3-bucket-name"
 $env:AWS_REGION = "ap-southeast-2"
-$env:AWS_PROFILE = "your-aws-cli-profile"
+$env:AWS_PROFILE = "name-aws-cli-profile"
 ```
 
 Ensure your AWS CLI profile is configured and has permission to download the model and metrics objects. Then run:
@@ -163,7 +163,7 @@ Set the required environment variables before preparing the request:
 $env:S3_BUCKET = "your-s3-bucket-name"
 $env:AWS_REGION = "ap-southeast-2"
 $env:AWS_PROFILE = "your-aws-cli-profile"
-$env:SAGEMAKER_ROLE_ARN = "arn:aws:iam::YOUR_ACCOUNT_ID:role/YOUR_SAGEMAKER_ROLE"
+$env:SAGEMAKER_ROLE_ARN = "arn:aws:iam::ACCOUNT_ID:role/NAME_SAGEMAKER_ROLE"
 ```
 
 Then run:
