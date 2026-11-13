@@ -2,7 +2,7 @@
 
 An end-to-end machine learning project that predicts customer churn using Python and scikit-learn, with AWS S3 artifact storage and a prepared Amazon SageMaker training workflow.
 
-> **Project status:** The local scikit-learn training and prediction workflow is implemented. AWS S3 integration is implemented. The SageMaker training request was prepared and inspected with a dry run; a managed SageMaker training job has **not** been confirmed as successfully completed.
+> **Project status:** The local scikit-learn training and prediction workflow is implemented. AWS S3 integration is implemented. The SageMaker training request was prepared and inspected with a dry run, a managed SageMaker training job has **not** been confirmed as successfully completed.
 
 ## Overview
 
