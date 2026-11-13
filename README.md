@@ -102,8 +102,6 @@ Obtain a lawful copy of the Telco Customer Churn dataset and place it at:
 data/raw/telco-churn.csv
 ```
 
-Do not commit raw customer-level data to a public repository. Confirm that you have the right to use and redistribute any dataset before sharing it.
-
 Inspect the data:
 
 ```powershell
@@ -148,7 +146,7 @@ python src/predict.py
 reports/churn_predictions.csv
 ```
 
-The output contains the input features, estimated churn probability, and predicted class. Do not use real personal customer information in a public sample file.
+The output contains the input features, estimated churn probability, and predicted class. 
 
 ## SageMaker workflow
 
