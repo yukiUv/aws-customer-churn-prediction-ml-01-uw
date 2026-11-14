@@ -15,7 +15,7 @@ from sagemaker.core.helper.session_helper import Session
 
 # AWS config
 ROLE_ARN = (
-    "arn:aws:iam::945461161707:"
+    ":"
     "role/SageMakerChurnExecutionRole"
 )
 
@@ -24,7 +24,7 @@ TRAINING_IMAGE =(
     "sagemaker-scikit-learn:1.9-0-cpu-py3"
 )
 
-S3_BUCKET = "aws-ml-churn-945461161707"
+S3_BUCKET = ""
 
 
 # Create AWS session using the churn-project profile
@@ -37,7 +37,7 @@ boto_session = boto3.Session(
 
 sm_session = Session(
     boto_session=boto_session,
-    default_bucket="aws-ml-churn-945461161707"
+    default_bucket=""
 )
 
 # config sagemaker
