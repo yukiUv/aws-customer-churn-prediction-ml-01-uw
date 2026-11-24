@@ -359,14 +359,14 @@ Copy `.env.example` to `.env` for your own reference. PowerShell does not automa
 **Windows PowerShell:**
 
 ```powershell
-$env:S3_BUCKET = "your-s3-bucket-name"
+$env:S3_BUCKET = "s3-bucket-name"
 
 $env:AWS_REGION = "ap-southeast-2"
 
-$env:AWS_PROFILE = "your-aws-cli-profile"
+$env:AWS_PROFILE = "aws-cli-profile"
 ```
 
-Ensure that your AWS CLI profile is configured and has permission to download the required model and metrics objects.
+Ensure that  AWS CLI profile is configured and has permission to download the required model and metrics objects.
 
 Download the model:
 
@@ -408,11 +408,11 @@ Set the required environment variables before preparing the request.
 **Windows PowerShell:**
 
 ```powershell
-$env:S3_BUCKET = "your-s3-bucket-name"
+$env:S3_BUCKET = "s3-bucket_name"
 
 $env:AWS_REGION = "ap-southeast-2"
 
-$env:AWS_PROFILE = "your-aws-cli-profile"
+$env:AWS_PROFILE = "aws-cli-profile"
 
 $env:SAGEMAKER_ROLE_ARN = "arn:aws:iam::ACCOUNT_ID:role/NAME_SAGEMAKER_ROLE"
 ```
