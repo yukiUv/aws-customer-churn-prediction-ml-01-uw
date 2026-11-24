@@ -46,9 +46,6 @@ This project builds a binary classification pipeline using the Telco Customer Ch
 │   └── input/
 │       └── new_customer.csv
 │
-├── docs/
-│   └── architecture.md
-│
 ├── reports/
 │   ├── metrics.json
 │   ├── confusion_matrix.png
